@@ -16,3 +16,6 @@ if succuessful you should see something very simlilar to this
 
 <img src="doc/install.png">
 
+You will notice an error involving bcrypt shown below, this can be safely ignored.
+
+<img src="doc/bcrypt.png">
