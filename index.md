@@ -1,7 +1,7 @@
 <img src="doc/landing.png">
 <h2>Requirements<h2>
 <ul>
-<li><a href="https://www.meteor.com/install">Meteor installed</li>
+<li><a href="https://www.meteor.com/install">Meteor installed</a></li>
 </ul>
 
 <h2> Installation instructions </h2>
