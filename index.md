@@ -12,7 +12,7 @@ prefer to use command line git you can simply paste the below snippit into your 
 
 ```git clone https://github.com/acathers/digits && cd digits/app/ && meteor npm install && meteor npm run start```
 
-if succuessful you should see something very simlilar to this
+if successful you should see something very similar to this
 
 <img src="doc/install.png">
 
