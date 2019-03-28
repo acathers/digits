@@ -29,4 +29,12 @@ After login you can then click the Add Contact tab at the top left and you can a
 
 <img src="doc/add-contact.png">
 
+After you have contacts added, you can view them by clicking the List Contacts tab.
+
+<img src="doc/list-contacts.png">
+
+From the list contacts tab you can add time-stamped notes to your contacts, or click edit to edit your contact.
+
+
+
 
