@@ -2,15 +2,25 @@ import React from 'react';
 import { Card, Image, Feed } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import Note from '/imports/ui/components/Note';
-import AddNote from '/imports/ui/components/AddNote';
 import { withRouter, Link } from 'react-router-dom';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class Contact extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick() {
+    Contact.remove(this.props.contact._id);
+  }
+
+
   render() {
     return (
-
         <Card centered>
+        <Card.Content >
           <Card.Content>
             <Image floated='right' size='mini' src={this.props.contact.image}/>
             <Card.Header>{this.props.contact.firstName} {this.props.contact.lastName} </Card.Header>
@@ -27,9 +37,11 @@ class Contact extends React.Component {
               {this.props.notes.map((note, index) => <Note key={index} note={note}/>)}
             </Feed>
           </Card.Content>
-          <Card.Content extra>
-            <AddNote owner={this.props.contact.owner} contactId={this.props.contact._id}/>
-          </Card.Content>
+        <Card.Content extra>
+          <a href={this.onClick()}>delete</a>
+        </Card.Content>
+
+        </Card.Content>
         </Card>
 
     );
