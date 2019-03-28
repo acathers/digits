@@ -16,34 +16,34 @@
 
 <h2> Installation instructions </h2>
 
-Clone the repository to your preferred location and run ```meteor npm install``` from the app directory
+<p>Clone the repository to your preferred location and run ```meteor npm install``` from the app directory
 then ```meteor npm run start``` or if you
 prefer to use command line git you can simply paste the below snippit into your console.
 
 ```git clone https://github.com/acathers/digits && cd digits/app/ && meteor npm install && meteor npm run start```
 
-if successful you should see something very similar to this
+if successful you should see something very similar to this</p>
 
 <img src="doc/install.png">
 
-You will notice an error involving bcrypt shown below, this can be safely ignored.
+<p>You will notice an error involving bcrypt shown below, this can be safely ignored.</p>
 
 <img src="doc/bcrypt.png">
 
 <h2>Walkthrough</h2>
 
-You can click sign up and see a screen like below, enter a email address and password and you're set!
+<p>You can click sign up and see a screen like below, enter a email address and password and you're set!</p>
 <img src="doc/register.png">
 
-After login you can then click the Add Contact tab at the top left and you can add a contact into the below form
+<p>After login you can then click the Add Contact tab at the top left and you can add a contact into the below form</p>
 
 <img src="doc/add-contact.png">
 
-After you have contacts added, you can view them by clicking the List Contacts tab.
+<p>After you have contacts added, you can view them by clicking the List Contacts tab.</p>
 
 <img src="doc/list-contacts.png">
 
-From the list contacts tab you can add time-stamped notes to your contacts, or click edit to edit your contact.
+<p>From the list contacts tab you can add time-stamped notes to your contacts, or click edit to edit your contact.</p>
 
 
 
