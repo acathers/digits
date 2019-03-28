@@ -1,4 +1,14 @@
 <img src="doc/landing.png">
+<h2>Introduction</h2>
+
+<p>Digits is an application that allows users to:</p>
+
+<ul>
+  <li>Register an account.</li>
+  <li>Create and manage a set of contacts.</li>
+  <li>Add a set of timestamped notes regarding their interactions with each contact.</li>
+</ul>
+
 <h2>Requirements<h2>
 <ul>
 <li><a href="https://www.meteor.com/install">Meteor installed</a></li>
