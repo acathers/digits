@@ -19,3 +19,14 @@ if successful you should see something very similar to this
 You will notice an error involving bcrypt shown below, this can be safely ignored.
 
 <img src="doc/bcrypt.png">
+
+<h2>Walkthrough</h2>
+
+You can click sign up and see a screen like below, enter a email address and password and you're set!
+<img src="doc/register.png">
+
+After login you can then click the Add Contact tab at the top left and you can add a contact into the below form
+
+<img src="doc/add-contact.png">
+
+
